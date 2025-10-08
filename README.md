@@ -3,7 +3,7 @@
 ## 📖 Description
 A **console-based Student Management System** built using **Java, JDBC, MySQL, and Maven**.  
 This project allows users to **Add, View, Update, and Delete student records** in a MySQL database.  
-Perfect for learning **Java database connectivity** and for showcasing on your resume.
+Perfect for learning **Java database connectivity**.
 
 ---
 
@@ -23,7 +23,7 @@ Perfect for learning **Java database connectivity** and for showcasing on your r
 - **Database:** MySQL  
 - **Database Connectivity:** JDBC  
 - **Build Tool:** Maven  
-- **IDE:** VS Code / IntelliJ IDEA  
+- **IDE:** VS Code
 
 ---
 
@@ -96,10 +96,10 @@ mvn exec:java -Dexec.mainClass="com.student.App"
 student-management/
 ├── src/
 │   └── main/java/com/student/
-│        ├── App.java           // Main menu
-│        ├── DBConnection.java  // MySQL connection
-│        ├── Student.java       // Model class
-│        └── StudentDAO.java    // CRUD operations
+│                     ├── App.java           // Main menu
+│                     ├── DBConnection.java  // MySQL connection
+│                     ├── Student.java       // Model class
+│                     └── StudentDAO.java    // CRUD operations
 ├── pom.xml
 └── README.md
 ```
